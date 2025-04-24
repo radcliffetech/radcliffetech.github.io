@@ -1,44 +1,121 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      Jeffrey Radcliffe
-    </title>
-    <style>
-      body {
-        background-color: #f0f0f0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+<html lang="en">
 
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffrey Radcliffe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      text-align: center;
+    }
 
-      .header {
-        text-align: center;
-      }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
 
-      h1 {
-        font-size: 4em;
-        color: #003366;
-      }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    }
 
-      h2 {
-        font-size: 2em;
-        color: #003366;
-      }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
 
-      h3 {
-        font-size: 1.5em;
-        font-weight: 300;
-        color: #003366;
-      }
-    </style>
+    p.lead {
+      font-size: 1.25rem;
+      color: #6c757d;
+      margin-bottom: 2rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      margin: 2rem 0;
+      color: #495057;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.875rem;
+      color: #6c757d;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .button-grid a {
+      display: block;
+      padding: 0.75rem;
+      border: 1px solid #6c757d;
+      border-radius: 0.375rem;
+      text-decoration: none;
+      color: #495057;
+      transition: background 0.2s;
+    }
+
+    .button-grid a:hover {
+      background: #e2e6ea;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="header">
+  <div class="container">
     <h1>Jeffrey Radcliffe</h1>
-    <h2>Reifactor</h2>
+    <p class="lead">A man of many shades and dimensions.</p>
+    <section class="text-left py-4">
+      <p>
+        I'm a creative and multi-disciplinary human exploring the intersection of code, language, and the human
+        experience to more fully appreciate Reality. I cultivate and enliven floushing systems.
+      </p>
+    </section>
+    <section class="text-left py-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/fir-test-2f312.firebasestorage.app/o/media%2Fart-plenum.png?alt=media"
+        alt="The Plenum - by Jeffrey Radcliffe" title="JThe Plenum - by Jeffrey Radcliffe" height="100" />
+    </section>
 
-  <h3>Manifesting since 1975!</h3>
+    <section class="text-left py-4">
+      <div class="list-group">
+        <a href="https://github.com/radcliffetech" target="_blank" class="list-group-item list-group-item-action">
+          GitHub
+        </a>
+        <a href="https://jeffreyradcliffe.com" target="_blank" class="list-group-item list-group-item-action">
+          Personal Website
+        </a>
+        <a href="https://sanskrit-garden--sanskrit-3b00d.us-central1.hosted.app" target="_blank" class="list-group-item list-group-item-action">
+          Sanskrit Garden
+        </a>
+        <a href="https://artemis7.bandcamp.com" target="_blank" class="list-group-item list-group-item-action">
+          Artemis Seven – Electronic Music
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <blockquote>
+        “Good at the beginning, good in the middle, good at the end.”
+        <br />
+        <small>— Buddha</small>
+      </blockquote>
+      &copy;
+      <script>document.write(new Date().getFullYear())</script> Jeffrey Radcliffe
+    </footer>
   </div>
 </body>
 
